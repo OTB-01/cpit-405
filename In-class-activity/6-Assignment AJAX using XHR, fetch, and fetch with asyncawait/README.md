@@ -1,0 +1,2 @@
+Instructions
+Create a weather app that looks like the prototype image below. Please use any free weather API using either XHR, fetch, or fetch with async/await. You may use this weather API, https://www.weatherapi.com, that we demonstrated during the recorded lecture.
