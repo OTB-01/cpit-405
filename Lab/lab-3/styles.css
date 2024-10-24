@@ -1,0 +1,19 @@
+.image-preview {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.image-preview img {
+    border-top: 30px solid skyblue;
+    border-right: 30px solid lightpink;
+    border-bottom: 30px solid lightgreen;
+    border-left: 30px solid #ffefd5;
+}
+
+.answers_table td, tr, th{
+    text-align: center;
+    padding: 5px;
+    border: 1px solid black;
+    
+}
