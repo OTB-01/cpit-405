@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Events Activity</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1>NBA Title Quiz</h1>
+    
+    <button id="start-timer" onclick="startTimer()">Start Timer</button>
+    <p id="timer-output">30 seconds</p>
+
+    <input type="text" id="teamInput" placeholder="Enter an NBA team name">
+    <table>
+        <thead>
+            <tr>
+                <th colspan="2">Teams that have won NBA titles</th>
+            </tr>
+            <tr>
+                <th>Team</th>
+                <th>Years</th>
+            </tr>
+        </thead>
+        <tbody id="wonTableBody"></tbody>
+    </table>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Teams that have never won an NBA title</th>
+            </tr>
+        </thead>
+        <tbody id="neverWonTableBody"></tbody>
+    </table>
+    <script src="script.js"></script>
+</body>
+
+</html>

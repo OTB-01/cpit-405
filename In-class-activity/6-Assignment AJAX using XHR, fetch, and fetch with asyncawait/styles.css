@@ -1,0 +1,11 @@
+body{
+    text-align: center;
+    font-size: 22px;
+}
+
+#searchResults{
+    border: 1px solid black;
+    width: 20%;
+    margin: auto;
+    margin-top: 1%;
+}

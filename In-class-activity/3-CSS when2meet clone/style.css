@@ -1,0 +1,60 @@
+/* entire page */
+body{
+    background-color: rgb(15, 15, 15);
+    color: aliceblue;
+    font-family: "Helvetica", Sans-Serif;
+    font-size: 20px;
+}
+
+
+/* nav bar */
+nav {
+    background-color: rgb(22, 22, 22);
+}
+
+nav ul li{
+    display: inline;
+    font-size: 24px;
+
+    margin-left: 10px;
+    padding-left: 10px ;    
+
+    border-left: 3px solid rgb(255, 255, 255);
+}
+
+nav ul li a{
+    text-decoration: none;
+}
+
+/* create event */
+.createEvent{
+    background-color: rgb(22, 22, 22);
+}
+.createEvent label{
+    display: block;
+}
+
+/* input availability */
+.inputAvailability{
+    background-color: rgb(22, 22, 22);
+}
+
+/* view results */
+.viewResults{
+    background-color: rgb(22, 22, 22);
+}
+
+/* sign up */
+.signUp{
+    background-color: rgb(22, 22, 22);
+}
+
+.signUp label {
+    display: block;
+}
+
+/* footer */
+footer{
+    background-color: rgb(22, 22, 22);
+    text-align: center;
+}

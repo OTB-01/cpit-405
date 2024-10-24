@@ -1,0 +1,26 @@
+nav{
+    background-color: blanchedalmond;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li{
+    display: inline;
+    font-size: 24px;
+
+    margin: 5px;
+    padding: 25px ;    
+
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 20px;
+    background-color: aquamarine;
+    
+}
+nav ul li a{
+    text-decoration: none;
+}
+nav ul li input{
+    border: 2px solid aquamarine;
+    background-color: aquamarine;
+    padding: 1.5em;
+}

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cpit-405 in-class activity 2</title>
+</head>
+
+<body>
+    <h1>When2Meet</h1>
+
+    <nav>
+        <ul>
+            <li><a href="#create event">create event</a></li>
+            <li><a href="#input availability">select availability</a></li>
+            <li><a href="#view results">view results</a></li>
+            <li><a href="#sign up">sign up</a></li>
+        </ul>
+    </nav>
+
+    <h2>create event</h2>
+    <br>
+
+    <label>Event name: </label>
+    <input type="text" name="Event name">
+
+    <label>Event description: </label>
+    <textarea name="Event description"></textarea>
+
+    <label>start date: </label>
+    <input type="date" name="start date">
+
+    <label>end date: </label>
+    <input type="date" name="end date">
+
+    <label>time increment: </label>
+    <select name="time increment">
+        <option value="10">10 minutes</option>
+        <option value="15">15 minutes</option>
+        <option value="30">30 minutes</option>
+        <option value="60">1 hour</option>
+    </select>
+
+    <button>create event</button>
+
+
+
+    <h2>input availability</h2>
+
+    <table>
+
+        <tr>
+            <th>time</th>
+            <th>monday</th>
+            <th>tuesday</th>
+            <th>wednesday</th>
+            <th>thursday</th>
+            <th>friday</th>
+        </tr>
+        <tr>
+            <td>9:00AM</td>
+            <td> <input type="checkbox"> </td>
+            <td> <input type="checkbox"> </td>
+            <td> <input type="checkbox"> </td>
+            <td> <input type="checkbox"> </td>
+            <td> <input type="checkbox"> </td>
+
+        </tr>
+    </table>
+
+    <button>submit</button>
+
+
+    <h2>view results</h2>
+    <table>
+
+        <tr>
+            <th>time</th>
+            <th>monday</th>
+            <th>tuesday</th>
+            <th>wednesday</th>
+            <th>thursday</th>
+            <th>friday</th>
+        </tr>
+        <tr>
+            <td>9:00AM</td>
+            <td> 3 availability</td>
+            <td> 2 availability</td>
+            <td> 4 availability</td>
+            <td> 1 availability</td>
+            <td> 5 availability</td>
+
+        </tr>
+    </table>
+
+
+    <p>
+        shareable link:
+        <a href="https://www.when2meet.com/">when2meet</a>
+    </p>
+
+
+    <h2>sign up</h2>
+    <label>username</label>
+    <input type="text" name="username">
+
+    <label>email</label>
+    <input type="email" name="email">
+
+    <label>password</label>
+    <input type="password" name="password">
+
+    <button>sign up</button>
+
+
+    <footer>
+        <p>@ 2024 WhenToMeet: all rights reserved.</p>
+      </footer>
+
+</body>
+
+</html>
