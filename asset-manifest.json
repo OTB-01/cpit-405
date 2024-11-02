@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/cpit-405/static/css/main.f855e6bc.css",
+    "main.js": "/cpit-405/static/js/main.9b93694b.js",
+    "static/js/453.37868d24.chunk.js": "/cpit-405/static/js/453.37868d24.chunk.js",
+    "static/media/logo.svg": "/cpit-405/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/cpit-405/index.html",
+    "main.f855e6bc.css.map": "/cpit-405/static/css/main.f855e6bc.css.map",
+    "main.9b93694b.js.map": "/cpit-405/static/js/main.9b93694b.js.map",
+    "453.37868d24.chunk.js.map": "/cpit-405/static/js/453.37868d24.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.9b93694b.js"
+  ]
+}
