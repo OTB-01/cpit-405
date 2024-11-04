@@ -1,171 +1,194 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CPIT-405 index page</title>
     <style>
-        body {
-            text-transform: capitalize;
-            background-color: rgb(36, 35, 35);
-            color: white;
-            font-size: large;
-            font-family: 'Courier New', Courier, monospace;
-        }
+      body {
+        text-transform: capitalize;
+        background-color: rgb(36, 35, 35);
+        color: white;
+        font-size: large;
+        font-family: "Courier New", Courier, monospace;
+      }
 
-        .header {
-            text-align: center;
-            color: crimson;
-        }
-        
-        #course-link {
-            display: flex;
-            justify-content: center;
-            font-size: 1.5em;
-        }
+      .header {
+        text-align: center;
+        color: crimson;
+      }
 
-        td, th {
-            text-align: center;
-            border: 1px solid white;
-            padding: 8px;
-        }
+      #course-link {
+        display: flex;
+        justify-content: center;
+        font-size: 1.5em;
+      }
 
-        th{
-            color: crimson;
-        }
+      td,
+      th {
+        text-align: center;
+        border: 1px solid white;
+        padding: 8px;
+      }
 
-        #tables-container {
-            display: flex;
-            justify-content: space-evenly;
+      th {
+        color: crimson;
+      }
 
-        }
+      #tables-container {
+        display: flex;
+        justify-content: space-evenly;
+      }
 
-        a {
-            text-decoration: none;
-            color: wheat;
+      a {
+        text-decoration: none;
+        color: wheat;
+      }
 
-        }
-
-        a:hover {
-            font-size: larger;
-            text-decoration: underline;
-            color: orange;
-        }
+      a:hover {
+        font-size: larger;
+        text-decoration: underline;
+        color: orange;
+      }
     </style>
-</head>
+  </head>
 
-<body>
+  <body>
     <h1 class="header">CPIT-405 index page</h1>
-    
-    <a id="course-link" href="https://cpit405.gitlab.io" target="_blank">course link</a>
-    
+
+    <a id="course-link" href="https://cpit405.gitlab.io" target="_blank"
+      >course link</a
+    >
+
     <div id="tables-container">
+      <div id="lab-container">
+        <h2 class="header">labs</h2>
+        <table id="lab-table">
+          <tr>
+            <th>Lab #</th>
+            <th>name</th>
+            <th>link</th>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>Setting up your web development environment</td>
+            <td><a href="./Lab/lab-1/index.html">page</a></td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Introduction, HTML Structure</td>
+            <td><a href="./Lab/lab-2/index.html">page</a></td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>CSS</td>
+            <td><a href="./Lab/lab-3/index.html">page</a></td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>CSS Structure and Properties</td>
+            <td><a href="./Lab/lab-4/index.html">page</a></td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>DOM API and JS Events</td>
+            <td><a href="./Lab/lab-5/index.html">page</a></td>
+          </tr>
+          <tr>
+            <td>6</td>
+            <td>JavaScript Events, DOM API, and Cookies</td>
+            <td><a href="./Lab/lab-6/index.html">page</a></td>
+          </tr>
+          <tr>
+            <td>7</td>
+            <td>Asynchronous JavaScript (Ajax programming)</td>
+            <td><a href="./Lab/lab-7/index.html">page</a></td>
+          </tr>
+          <tr>
+            <td>8</td>
+            <td>react app</td>
+            <td><a href="./Lab/lab-8">page</a></td>
+          </tr>
+        </table>
+      </div>
 
-        <div id="lab-container">
-            <h2 class="header">labs</h2>
-            <table id="lab-table">
-                <tr>
-                    <th>Lab #</th>
-                    <th>name</th>
-                    <th>link</th>
-                </tr>
-                <tr>
-                    <td> 1</td>
-                    <td>Setting up your web development environment</td>
-                    <td><a href="./Lab/lab-1/index.html">page</a></td>
-                </tr>
-                <tr>
-                    <td> 2</td>
-                    <td>Introduction, HTML Structure</td>
-                    <td><a href="./Lab/lab-2/index.html">page</a></td>
-
-                </tr>
-                <tr>
-                    <td> 3</td>
-                    <td>CSS</td>
-                    <td><a href="./Lab/lab-3/index.html">page</a></td>
-                </tr>
-                <tr>
-                    <td> 4</td>
-                    <td>CSS Structure and Properties</td>
-                    <td><a href="./Lab/lab-4/index.html">page</a></td>
-                </tr>
-                <tr>
-                    <td> 5</td>
-                    <td>DOM API and JS Events</td>
-                    <td><a href="./Lab/lab-5/index.html">page</a></td>
-
-                </tr>
-                <tr>
-                    <td> 6</td>
-                    <td>JavaScript Events, DOM API, and Cookies</td>
-                    <td><a href="./Lab/lab-6/index.html">page</a></td>
-                </tr>
-                <tr>
-                    <td> 7</td>
-                    <td>Asynchronous JavaScript (Ajax programming)</td>
-                    <td><a href="./Lab/lab-7/index.html">page</a></td>
-                </tr>
-                <tr>
-                    <td>8</td>
-                    <td>react app</td>
-                    <td><a href="./Lab/lab-8/public/index.html">page</a></td>
-                </tr>
-            </table>
-        </div>
-
-        <div id="activity-container">
-            <h2 class="header">in-class activity</h2>
-            <table id="activity-table">
-                <tr>
-                    <th>Activity #</th>
-                    <th>name</th>
-                    <th>link</th>
-                </tr>
-                <tr>
-                    <td> 1</td>
-                    <td>Colspan and Rowspan</td>
-                    <td><a href="./In-class-activity/1-Colspan and Rowspan/index.html">page</a></td>
-                </tr>
-                <tr>
-                    <td> 2</td>
-                    <td>when2meet clone</td>
-                    <td><a href="./In-class-activity/2-when2meet clone/index.html">page</a></td>
-                </tr>
-                <tr>
-                    <td> 3</td>
-                    <td>CSS when2meet clone</td>
-                    <td><a href="./In-class-activity/3-CSS when2meet clone/index.html">page</a></td>
-                </tr>
-                <tr>
-                    <td> 4</td>
-                    <td>CSS Navigation Bar</td>
-                    <td><a href="./In-class-activity/4-Assignment CSS Navigation Bar/index.html">page</a></td>
-                </tr>
-                <tr>
-                    <td> 5</td>
-                    <td>JS Events</td>
-                    <td><a href="./In-class-activity/5-In-class Activity JS Events/index.html">page</a></td>
-                </tr>
-                <tr>
-                    <td> 6</td>
-                    <td>AJAX using fetch with async/await</td>
-                    <td><a href="./In-class-activity/6-Assignment AJAX using XHR, fetch, and fetch with asyncawait/index.html">page</a>
-                    </td>
-                </tr>
-                <tr>
-                    <td>7</td>
-                    <td>When2Meet clone using JS events, DOM, and Fetch</td>
-                    <td><a href="./In-class-activity/7-When2Meet clone using JS events, DOM, and Fetch/index.html">page</a>
-                    </td>
-                </tr>
-
-
-            </table>
-        </div>
+      <div id="activity-container">
+        <h2 class="header">in-class activity</h2>
+        <table id="activity-table">
+          <tr>
+            <th>Activity #</th>
+            <th>name</th>
+            <th>link</th>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>Colspan and Rowspan</td>
+            <td>
+              <a href="./In-class-activity/1-Colspan and Rowspan/index.html"
+                >page</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>when2meet clone</td>
+            <td>
+              <a href="./In-class-activity/2-when2meet clone/index.html"
+                >page</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>CSS when2meet clone</td>
+            <td>
+              <a href="./In-class-activity/3-CSS when2meet clone/index.html"
+                >page</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>CSS Navigation Bar</td>
+            <td>
+              <a
+                href="./In-class-activity/4-Assignment CSS Navigation Bar/index.html"
+                >page</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>JS Events</td>
+            <td>
+              <a
+                href="./In-class-activity/5-In-class Activity JS Events/index.html"
+                >page</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <td>6</td>
+            <td>AJAX using fetch with async/await</td>
+            <td>
+              <a
+                href="./In-class-activity/6-Assignment AJAX using XHR, fetch, and fetch with asyncawait/index.html"
+                >page</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <td>7</td>
+            <td>When2Meet clone using JS events, DOM, and Fetch</td>
+            <td>
+              <a
+                href="./In-class-activity/7-When2Meet clone using JS events, DOM, and Fetch/index.html"
+                >page</a
+              >
+            </td>
+          </tr>
+        </table>
+      </div>
     </div>
-
-</body>
-
+  </body>
 </html>
