@@ -18,10 +18,17 @@
                 color: crimson;
             }
 
-            #course-link {
+            .outer-link {
                 display: flex;
                 justify-content: center;
-                font-size: 1.5em;
+                font-size: 20px;
+            }
+            .outer-table {
+                display: flex;
+                justify-content: center;
+            }
+            .outer-table td {
+                border: 1px solid white;
             }
 
             td,
@@ -43,11 +50,12 @@
             a {
                 text-decoration: none;
                 color: wheat;
+                position: relative;
             }
 
             a:hover {
-                font-size: larger;
-                text-decoration: underline;
+                top: -2px;
+                left: 2px;
                 color: orange;
             }
         </style>
@@ -55,15 +63,39 @@
 
     <body>
         <h1 class="header">CPIT-405 index page</h1>
-
-        <a id="course-link" href="https://cpit405.gitlab.io" target="_blank"
-            >course link</a
-        >
-
-        <a href="https://otb-01.github.io/405-project/"
-            >final project: movie app</a
-        >
-
+        <hr color="black" />
+        <h2 class="header">Course and Projects</h2>
+        <table class="outer-table">
+            <tr>
+                <td>
+                    <a
+                        class="outer-link"
+                        href="https://cpit405.gitlab.io"
+                        target="_blank"
+                        >course link</a
+                    >
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a
+                        class="outer-link"
+                        href="https://otb-01.github.io/405-project/"
+                        >final project: movie app</a
+                    >
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a
+                        class="outer-link"
+                        href="https://github.com/OTB-01/cpit405-labExam"
+                    >
+                        Lab Exam: Full stack Bookmarking App</a
+                    >
+                </td>
+            </tr>
+        </table>
         <div id="tables-container">
             <div id="lab-container">
                 <h2 class="header">labs</h2>
